@@ -1,8 +1,8 @@
 $('document').ready(function () {
 
 
-    TweenMax.to('.grey', 0.8, {
-        delay: 0.3,
+    TweenMax.to('.grey', 0.6, {
+        delay: 0.1,
         height: "0px",
 
         onComplete: function () {
