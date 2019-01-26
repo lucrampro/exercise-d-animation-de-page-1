@@ -10,7 +10,7 @@ $('document').ready(function () {
             //            alert( 'Hello, world!' ); 
 
             TweenMax.to('.first', 0.3, {
-                height: "50px",
+                height: "40px",
             });
 
             TweenMax.to('.second', 0.3, {

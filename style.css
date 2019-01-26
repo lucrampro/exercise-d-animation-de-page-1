@@ -1,9 +1,27 @@
+/*FONTS*/
+
+
+
+@font-face {
+    font-family: "gothamBook";
+    src: url("../fonts/gothamBook.woff2") format("woff2"), url("../fonts/gothamBook.woff") format("woff");
+}
+
+@font-face {
+    font-family: "gothamBold";
+    src: url("../fonts/gothamBold.woff2") format("woff2"), url("../fonts/gothamBold.woff") format("woff");
+}
+
+
+/*FONTS*/
+
+
 body {
 
     height: 99vh;
     padding: 3px;
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'gothamBold';
     position: relative;
 
 }
@@ -18,9 +36,10 @@ h2 {
     overflow: hidden;
 }
 
-p{
+p {
     margin: 5px;
     margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .one {
@@ -54,52 +73,55 @@ p{
 .two .first {
 
     margin-top: 150px;
-    max-width: 420px;
+    max-width: 520px;
     height: 0;
     border: none;
-    
+
 }
-.cacheT{
-    
+
+.cacheT {
+
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background: #4CD964;
-    
+
 }
 
 .two .second {
     height: 0;
-    max-width: 190px;
-    border: none
-        
+    max-width: 220px;
+    border: none;
+    margin-top: 0;
+
 }
 
 
-.cacheTT{
-    
+.cacheTT {
+
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background: #4CD964;
-    
+
 }
 
-.two p{
+.two p {
     opacity: 0;
     transform: translateY(50%);
-    
+
 }
+
 /* /////////// */
 
 
-.three{
-    
-    
+.three {
+
+
     height: 200px;
     width: 400px;
     margin: 5px;
@@ -107,30 +129,31 @@ p{
     display: flex;
 }
 
-.btnOne, .btnTwo{
-    
+.btnOne,
+.btnTwo {
+
     background: none;
     border-radius: 5px;
     height: 50px;
     padding: 10px;
     margin-left: 50px;
-    
+
 }
 
-.three img{
-    
+.three img {
+
     height: 50px;
     opacity: 0;
     transform: translateY(50%);
-    
+
 }
 
 
 /* ////////////////// */
 
 
-.grey{
-    
+.grey {
+
     position: absolute;
     background: #4CD964;
     height: 100%;
@@ -139,6 +162,3 @@ p{
     top: 0;
     left: 0;
 }
-
-
-
